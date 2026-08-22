@@ -97,6 +97,11 @@ hr.sec-div{border:none;border-top:1px solid #e8f0ed;margin:0 2rem;}
 .btn-vol{background:#0F6E56;color:#fff;border:none;padding:11px 24px;border-radius:8px;font-size:14px;cursor:pointer;font-weight:700;}
 .gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;}
 .gallery-ph{border-radius:14px;background:#f0f9f5;border:2px dashed #c8e8dc;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;padding:2rem 1rem;min-height:140px;color:#aaa;}
+.gallery-item{border-radius:14px;overflow:hidden;border:1px solid #e8f0ed;background:#fff;}
+.gallery-item img{width:100%;height:200px;object-fit:cover;display:block;}
+.gallery-caption{padding:12px 14px;}
+.gallery-caption h4{font-size:13px;font-weight:700;color:#085041;margin-bottom:5px;line-height:1.4;}
+.gallery-caption p{font-size:12px;color:#666;line-height:1.6;}
 .why-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;}
 .why-item{padding:1.25rem;background:#fff;border:1px solid #e8f0ed;border-radius:14px;}
 .why-icon{font-size:24px;margin-bottom:10px;}
@@ -360,14 +365,15 @@ hr.sec-div{border:none;border-top:1px solid #e8f0ed;margin:0 2rem;}
 <div id="gallery"><div class="sec">
   <div class="sec-eyebrow">Gallery</div>
   <h2>Life at Mankuke</h2>
-  <p class="sec-sub">Photos coming soon. Follow us on social media for updates from our centre.</p>
+  <p class="sec-sub">Real moments from our centre, updated by our team.</p>
   <div class="gallery-grid">
-    <div class="gallery-ph"><div style="font-size:30px;">&#128247;</div><span>Add a photo here</span></div>
-    <div class="gallery-ph"><div style="font-size:30px;">&#128247;</div><span>Add a photo here</span></div>
-    <div class="gallery-ph"><div style="font-size:30px;">&#128247;</div><span>Add a photo here</span></div>
-    <div class="gallery-ph"><div style="font-size:30px;">&#128247;</div><span>Add a photo here</span></div>
-    <div class="gallery-ph"><div style="font-size:30px;">&#128247;</div><span>Add a photo here</span></div>
-    <div class="gallery-ph"><div style="font-size:30px;">&#128247;</div><span>Add a photo here</span></div>
+    <div class="gallery-item">
+      <img src="https://res.cloudinary.com/dbugr3nmr/image/upload/v1787395330/nyvx5xzmwrdub8wxw2d8.jpg" alt="Mankuke Day Care Health and Safety Packs" loading="lazy">
+      <div class="gallery-caption">
+        <h4>Mankuke Day Care Receives Health &amp; Safety Packs from LDoE &amp; HOPE Worldwide SA</h4>
+        <p>Mankuke Day Care was selected to receive official ECD Health &amp; Safety packs — including fire extinguishers, first aid supplies, and safety equipment — from the Limpopo Department of Education, HOPE Worldwide SA, and the NDA. A proud step toward full provincial compliance. 🎉</p>
+      </div>
+    </div>
   </div>
 </div></div>
 
